@@ -2,7 +2,6 @@
 
 A machine learning project that predicts the likelihood of three major chronic health conditions—**Diabetes**, **Hypertension**, and **Stroke**—using supervised learning algorithms. The project compares multiple classification models to evaluate their effectiveness in predicting healthcare risks from patient health indicators.
 
----
 
 ## Overview
 
@@ -14,7 +13,7 @@ Early identification of chronic diseases can significantly improve patient outco
 
 Several classification algorithms were trained and evaluated using the same dataset to compare predictive performance across different healthcare prediction tasks.
 
----
+
 
 ## Dataset
 
@@ -45,7 +44,7 @@ The project uses a healthcare dataset containing:
 * Difficulty Walking
 * and other lifestyle and medical indicators.
 
----
+
 
 ## Project Workflow
 
@@ -74,7 +73,7 @@ Model Evaluation
 Performance Comparison
 ```
 
----
+
 
 ## Data Preprocessing
 
@@ -86,7 +85,7 @@ The dataset was prepared through several preprocessing steps before training:
 * Standardized numerical features using **StandardScaler**
 * Prepared separate target variables for each prediction task
 
----
+
 
 ## Exploratory Data Analysis
 
@@ -98,7 +97,7 @@ The project includes visual exploration of the dataset using:
 
 These visualizations were used to understand feature relationships and guide preprocessing decisions.
 
----
+
 
 ## Machine Learning Models
 
@@ -116,7 +115,7 @@ Each model was trained independently for:
 * Hypertension Prediction
 * Diabetes Prediction
 
----
+
 
 ## Model Evaluation
 
@@ -132,7 +131,7 @@ The models were evaluated using standard classification metrics:
 
 This comparative evaluation helps identify which algorithms perform better for different healthcare prediction tasks.
 
----
+
 
 ## Results
 
@@ -145,7 +144,7 @@ Key observations include:
 * Naive Bayes classifiers provided competitive baseline performance with lower computational complexity.
 * Model performance varied depending on the target disease, highlighting the importance of algorithm selection for different healthcare applications.
 
----
+
 
 ## Technologies Used
 
@@ -157,7 +156,6 @@ Key observations include:
 * Scikit-learn
 * Jupyter Notebook
 
----
 
 
 ## Future Improvements
@@ -172,7 +170,6 @@ Planned enhancements include:
 * Deep learning approaches
 * Model deployment with a web interface
 
----
 
 
 ## Author
