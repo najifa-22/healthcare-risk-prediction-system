@@ -3,6 +3,10 @@
 A machine learning project that predicts the likelihood of three major chronic health conditions—**Diabetes**, **Hypertension**, and **Stroke**—using supervised learning algorithms. The project compares multiple classification models to evaluate their effectiveness in predicting healthcare risks from patient health indicators.
 
 
+
+
+
+
 ## Overview
 
 Early identification of chronic diseases can significantly improve patient outcomes and support preventive healthcare. This project applies supervised machine learning techniques to classify patients based on their risk of developing:
