@@ -1,0 +1,57 @@
+## HEATMAP ##
+
+'''
+from matplotlib.colors import LinearSegmentedColormap
+# Custom Ivy League color palette
+steel_cmap = LinearSegmentedColormap.from_list(
+    "steel_blue",
+    ["#F4F8FC", "#4682B4"]
+)
+#GnBu
+#Blues
+'''
+__________________________________________________________________
+
+
+
+
+
+## another model version ##
+# Logistic Regression with Hyperparameter Tuning
+
+param_grid = {
+    "C": np.logspace(-3, 3, 7)
+}
+
+logistic_model = GridSearchCV(
+    estimator=LogisticRegression(
+        solver="lbfgs",
+        random_state=42,
+        class_weight="balanced"
+    ),
+    param_grid=param_grid,
+    cv=10,
+    scoring="accuracy",
+    n_jobs=-1
+)
+
+model_train_test(
+    disease="Stroke",
+    model_name="Logistic Regression",
+    model=logistic_model
+)
+
+
+#############  output  ################
+Accuracy: 74.74%
+
+              precision    recall  f1-score   support
+
+         0.0       0.76      0.72      0.74     10604
+         1.0       0.74      0.77      0.75     10604
+
+    accuracy                           0.75     21208
+   macro avg       0.75      0.75      0.75     21208
+weighted avg       0.75      0.75      0.75     21208
+
+_____________________________________________________________
